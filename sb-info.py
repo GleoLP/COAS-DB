@@ -51,7 +51,7 @@ async def check_logs():
             await asyncio.sleep(1)
         await asyncio.sleep(20)
 
-    check_logs.last_checked_time = {}
+check_logs.last_checked_time = {}
 
 async def delete_old_messages():
     delall = 0
